@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>@thiichico - Random Data</title>
+  <meta charset="utf-8">
+  <meta name="description" lang="en"
+        content="Hi, I'm Franscisco Thiago (@thiichico). This website has as only goal to generate random numbers, being simple, fast and without any marketing.">
+  <meta name="description" lang="pt-br"
+        content="Olá, eu sou Francisco Thiago (@thiichico). Essa página tem como único objetivo gerar números aleatório de forma simples, rápida e sem propragandas.">
+  <meta name="keywords"
+        content="thiichico,Francisco Thiago,fullstack,developer,computer,science,web,javascript,generator">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container-body" style="display: flex; flex-direction: column;">
+  <div class="container-content rows">
+    <div class="columns content-box">
+      <p class="title">CPF</p>
+      <button id="gen-cpf" type="button" style="width: 100%">Gerar CPF</button>
+      <p>
+        <input type="text" id="cpf-without-dot" readonly>
+        <button id="copy-cpf-without" class="inverted" type="button">Copiar</button>
+      </p>
+      <p>
+        <input type="text" id="cpf-with-dot" readonly>
+        <button id="copy-cpf-with" type="button" class="inverted">Copiar</button>
+      </p>
+    </div>
+  </div>
+</div>
+</body>
+<script async type="application/javascript" src="utils.js"></script>
+<script async type="application/javascript" src="cpf.js"></script>
+<script async type="application/javascript" src="actions.js"></script>
+</html>

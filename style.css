@@ -1,0 +1,50 @@
+body {margin: 0px; font-family: "Courier 10 Pitch", Helvetica, Arial;}
+.container-body {
+    background-color: hsl(300, 30%, 10%);
+    height: 100vh;
+}
+.header {
+    height: 3em;
+}
+.container-content {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.columns {
+    flex-flow: column wrap;
+    align-items: center;
+}
+.rows {
+    flex-flow: row wrap;
+    align-items: center;
+}
+.content-box {
+    background-color: hsl(300, 50%, 98%);
+    padding: 0 2rem 2rem 2rem;
+}
+
+.title {
+    font-size: 30pt;
+    line-height: 0px;
+}
+
+button {
+    border: 0;
+    padding: 0.5rem;
+    background-color: hsl(300, 40%, 80%);
+}
+button:hover {
+    background-color: hsl(300, 40%, 85%);
+}
+button:active {
+    background-color: hsl(300, 40%, 90%);
+}
+
+.inverted {
+    background-color: inherit;
+    border: 1px solid hsl(300, 40%, 80%);
+    border-bottom: 3px solid hsl(300, 40%, 80%);
+    border-right: 2px solid hsl(300, 40%, 80%);
+    border-bottom-right-radius: 5px;
+}
